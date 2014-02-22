@@ -9,5 +9,4 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.source_files = 'VBAnimator/VBAnimator/VBAnimator.h,m'
   s.requires_arc = false
-  s.frameworks = 'QuartzCore', 'AVAudioPlayer'
 end
