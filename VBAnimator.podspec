@@ -7,5 +7,6 @@ Pod::Spec.new do |s|
   s.author   = { 'Viktor Bespalov' => 'bespalown@gmail.com' }
   s.source   = { :git => 'https://github.com/bespalown/VBAnimator.git', :branch => 'master' }
   s.platform = :ios
-  s.source_files = 'VBAnimator/VBAnimator/VBAnimator.{h,m}’
+  s.source_files = 'VBAnimator.{h,m}’
+  s.framework    = 'AVAudioPlayer'
 end

@@ -7,21 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6620652C18B8E07500709DE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6620652918B8E07500709DE1 /* AppDelegate.m */; };
+		6620652D18B8E07500709DE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6620652B18B8E07500709DE1 /* ViewController.m */; };
+		6620653018B8E08300709DE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6620652E18B8E08300709DE1 /* Main.storyboard */; };
+		6620653318B8E09000709DE1 /* VBAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6620653218B8E09000709DE1 /* VBAnimator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6620653518B8E09F00709DE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6620653418B8E09F00709DE1 /* Images.xcassets */; };
+		6620653918B8E0F200709DE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6620653618B8E0F200709DE1 /* main.m */; };
+		6620653A18B8E0F200709DE1 /* VBAnimator-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6620653718B8E0F200709DE1 /* VBAnimator-Info.plist */; };
+		6620653D18B8E10000709DE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6620653B18B8E10000709DE1 /* InfoPlist.strings */; };
 		663044C618A3FE6A00F1A56B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 663044C518A3FE6A00F1A56B /* Foundation.framework */; };
 		663044C818A3FE6A00F1A56B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 663044C718A3FE6A00F1A56B /* CoreGraphics.framework */; };
 		663044CA18A3FE6A00F1A56B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 663044C918A3FE6A00F1A56B /* UIKit.framework */; };
-		663044D018A3FE6A00F1A56B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 663044CE18A3FE6A00F1A56B /* InfoPlist.strings */; };
-		663044D218A3FE6A00F1A56B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 663044D118A3FE6A00F1A56B /* main.m */; };
-		663044D618A3FE6A00F1A56B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 663044D518A3FE6A00F1A56B /* AppDelegate.m */; };
-		663044D918A3FE6A00F1A56B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663044D718A3FE6A00F1A56B /* Main.storyboard */; };
-		663044DC18A3FE6A00F1A56B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663044DB18A3FE6A00F1A56B /* ViewController.m */; };
-		663044DE18A3FE6A00F1A56B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663044DD18A3FE6A00F1A56B /* Images.xcassets */; };
 		663044E518A3FE6A00F1A56B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 663044E418A3FE6A00F1A56B /* XCTest.framework */; };
 		663044E618A3FE6A00F1A56B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 663044C518A3FE6A00F1A56B /* Foundation.framework */; };
 		663044E718A3FE6A00F1A56B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 663044C918A3FE6A00F1A56B /* UIKit.framework */; };
 		663044EF18A3FE6A00F1A56B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 663044ED18A3FE6A00F1A56B /* InfoPlist.strings */; };
 		663044F118A3FE6A00F1A56B /* VBAnimatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 663044F018A3FE6A00F1A56B /* VBAnimatorTests.m */; };
-		66FDD2AE18A4212E002906CA /* VBAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FDD2AD18A4212E002906CA /* VBAnimator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,27 +36,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6620652818B8E07500709DE1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = VBAnimatorDemo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		6620652918B8E07500709DE1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = VBAnimatorDemo/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		6620652A18B8E07500709DE1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = VBAnimatorDemo/ViewController.h; sourceTree = SOURCE_ROOT; };
+		6620652B18B8E07500709DE1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = VBAnimatorDemo/ViewController.m; sourceTree = SOURCE_ROOT; };
+		6620652F18B8E08300709DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = VBAnimatorDemo/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		6620653118B8E09000709DE1 /* VBAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBAnimator.h; sourceTree = SOURCE_ROOT; };
+		6620653218B8E09000709DE1 /* VBAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBAnimator.m; sourceTree = SOURCE_ROOT; };
+		6620653418B8E09F00709DE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VBAnimatorDemo/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		6620653618B8E0F200709DE1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = VBAnimatorDemo/main.m; sourceTree = SOURCE_ROOT; };
+		6620653718B8E0F200709DE1 /* VBAnimator-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "VBAnimator-Info.plist"; path = "VBAnimatorDemo/VBAnimator-Info.plist"; sourceTree = SOURCE_ROOT; };
+		6620653818B8E0F200709DE1 /* VBAnimator-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "VBAnimator-Prefix.pch"; path = "VBAnimatorDemo/VBAnimator-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		6620653C18B8E10000709DE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = VBAnimatorDemo/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		663044C218A3FE6A00F1A56B /* VBAnimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VBAnimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		663044C518A3FE6A00F1A56B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		663044C718A3FE6A00F1A56B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		663044C918A3FE6A00F1A56B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		663044CD18A3FE6A00F1A56B /* VBAnimator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VBAnimator-Info.plist"; sourceTree = "<group>"; };
-		663044CF18A3FE6A00F1A56B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		663044D118A3FE6A00F1A56B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		663044D318A3FE6A00F1A56B /* VBAnimator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VBAnimator-Prefix.pch"; sourceTree = "<group>"; };
-		663044D418A3FE6A00F1A56B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		663044D518A3FE6A00F1A56B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		663044D818A3FE6A00F1A56B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		663044DA18A3FE6A00F1A56B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		663044DB18A3FE6A00F1A56B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		663044DD18A3FE6A00F1A56B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		663044E318A3FE6A00F1A56B /* VBAnimatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VBAnimatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		663044E418A3FE6A00F1A56B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		663044EC18A3FE6A00F1A56B /* VBAnimatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VBAnimatorTests-Info.plist"; sourceTree = "<group>"; };
 		663044EE18A3FE6A00F1A56B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		663044F018A3FE6A00F1A56B /* VBAnimatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBAnimatorTests.m; sourceTree = "<group>"; };
-		66FDD2AC18A4212E002906CA /* VBAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBAnimator.h; sourceTree = "<group>"; };
-		66FDD2AD18A4212E002906CA /* VBAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBAnimator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,13 +116,13 @@
 		663044CB18A3FE6A00F1A56B /* Animator */ = {
 			isa = PBXGroup;
 			children = (
-				663044D418A3FE6A00F1A56B /* AppDelegate.h */,
-				663044D518A3FE6A00F1A56B /* AppDelegate.m */,
-				663044D718A3FE6A00F1A56B /* Main.storyboard */,
-				663044DA18A3FE6A00F1A56B /* ViewController.h */,
-				663044DB18A3FE6A00F1A56B /* ViewController.m */,
+				6620652818B8E07500709DE1 /* AppDelegate.h */,
+				6620652918B8E07500709DE1 /* AppDelegate.m */,
+				6620652A18B8E07500709DE1 /* ViewController.h */,
+				6620652B18B8E07500709DE1 /* ViewController.m */,
+				6620652E18B8E08300709DE1 /* Main.storyboard */,
 				663044FD18A3FEAC00F1A56B /* VBAnimator */,
-				663044DD18A3FE6A00F1A56B /* Images.xcassets */,
+				6620653418B8E09F00709DE1 /* Images.xcassets */,
 				663044CC18A3FE6A00F1A56B /* Supporting Files */,
 			);
 			name = Animator;
@@ -131,10 +132,10 @@
 		663044CC18A3FE6A00F1A56B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				663044CD18A3FE6A00F1A56B /* VBAnimator-Info.plist */,
-				663044CE18A3FE6A00F1A56B /* InfoPlist.strings */,
-				663044D118A3FE6A00F1A56B /* main.m */,
-				663044D318A3FE6A00F1A56B /* VBAnimator-Prefix.pch */,
+				6620653618B8E0F200709DE1 /* main.m */,
+				6620653718B8E0F200709DE1 /* VBAnimator-Info.plist */,
+				6620653818B8E0F200709DE1 /* VBAnimator-Prefix.pch */,
+				6620653B18B8E10000709DE1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -161,8 +162,8 @@
 		663044FD18A3FEAC00F1A56B /* VBAnimator */ = {
 			isa = PBXGroup;
 			children = (
-				66FDD2AC18A4212E002906CA /* VBAnimator.h */,
-				66FDD2AD18A4212E002906CA /* VBAnimator.m */,
+				6620653118B8E09000709DE1 /* VBAnimator.h */,
+				6620653218B8E09000709DE1 /* VBAnimator.m */,
 			);
 			path = VBAnimator;
 			sourceTree = "<group>";
@@ -243,9 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				663044DE18A3FE6A00F1A56B /* Images.xcassets in Resources */,
-				663044D018A3FE6A00F1A56B /* InfoPlist.strings in Resources */,
-				663044D918A3FE6A00F1A56B /* Main.storyboard in Resources */,
+				6620653518B8E09F00709DE1 /* Images.xcassets in Resources */,
+				6620653D18B8E10000709DE1 /* InfoPlist.strings in Resources */,
+				6620653018B8E08300709DE1 /* Main.storyboard in Resources */,
+				6620653A18B8E0F200709DE1 /* VBAnimator-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,10 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				663044DC18A3FE6A00F1A56B /* ViewController.m in Sources */,
-				66FDD2AE18A4212E002906CA /* VBAnimator.m in Sources */,
-				663044D618A3FE6A00F1A56B /* AppDelegate.m in Sources */,
-				663044D218A3FE6A00F1A56B /* main.m in Sources */,
+				6620652D18B8E07500709DE1 /* ViewController.m in Sources */,
+				6620653318B8E09000709DE1 /* VBAnimator.m in Sources */,
+				6620653918B8E0F200709DE1 /* main.m in Sources */,
+				6620652C18B8E07500709DE1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,20 +292,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		663044CE18A3FE6A00F1A56B /* InfoPlist.strings */ = {
+		6620652E18B8E08300709DE1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				663044CF18A3FE6A00F1A56B /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		663044D718A3FE6A00F1A56B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				663044D818A3FE6A00F1A56B /* Base */,
+				6620652F18B8E08300709DE1 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6620653B18B8E10000709DE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6620653C18B8E10000709DE1 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		663044ED18A3FE6A00F1A56B /* InfoPlist.strings */ = {
@@ -395,8 +397,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VBAnimator/VBAnimator-Prefix.pch";
-				INFOPLIST_FILE = "VBAnimator/VBAnimator-Info.plist";
+				GCC_PREFIX_HEADER = "VBAnimatorDemo/VBAnimator-Prefix.pch";
+				INFOPLIST_FILE = "VBAnimatorDemo/VBAnimator-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -408,8 +410,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VBAnimator/VBAnimator-Prefix.pch";
-				INFOPLIST_FILE = "VBAnimator/VBAnimator-Info.plist";
+				GCC_PREFIX_HEADER = "VBAnimatorDemo/VBAnimator-Prefix.pch";
+				INFOPLIST_FILE = "VBAnimatorDemo/VBAnimator-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -426,7 +428,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VBAnimator/VBAnimator-Prefix.pch";
+				GCC_PREFIX_HEADER = "VBAnimatorDemo/VBAnimator-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -449,7 +451,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VBAnimator/VBAnimator-Prefix.pch";
+				GCC_PREFIX_HEADER = "VBAnimatorDemo/VBAnimator-Prefix.pch";
 				INFOPLIST_FILE = "VBAnimatorTests/VBAnimatorTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";

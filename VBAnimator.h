@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <QuartzCore/QuartzCore.h>
 #import <AVFoundation/AVAudioPlayer.h>
 
 #define VBAnimator15FPS (1.0/15)
