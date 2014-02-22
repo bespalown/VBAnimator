@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary  = 'Decode and encode HTML character entities.'
   s.homepage = 'https://github.com/bespalown/NSString-HTML'
   s.author   = { 'Viktor Bespalov' => 'bespalown@gmail.com' }
-  s.source   = { :git => 'https://github.com/bespalown/NSString-HTML.git', :branch => 'master' }
+  s.source   = { :git => 'https://github.com/bespalown/VBAnimator.git', :branch => 'master' }
   s.platform = :ios
-  s.source_files = 'NSString-HTML.{h,m}'
+  s.source_files = 'VBAnimator.{h,m}'
 end
