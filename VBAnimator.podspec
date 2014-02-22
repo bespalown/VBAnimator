@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name     = 'NSString-HTML'
+  s.name     = 'VBAnimator'
   s.version  = '0.0.1'
   s.license  = 'MIT'
   s.summary  = 'Decode and encode HTML character entities.'
