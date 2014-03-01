@@ -42,6 +42,7 @@ imageView, animationData, animationTimer, animationStep, animationDuration, anim
 	UIView *myView = [[UIView alloc] initWithFrame: CGRectMake(0, 0, animationSize.width, animationSize.width)];
 	[myView autorelease];
 	self.view = myView;
+    isTouchEnabled = NO;
 
 	// FIXME: Additional Supported Orientations
 	if (animationOrientation == UIImageOrientationUp) {
@@ -272,15 +273,22 @@ imageView, animationData, animationTimer, animationStep, animationDuration, anim
 	imageView.image = img;
 }
 
+- (void) isTouchEnabled:(BOOL)touch
+{
+    isTouchEnabled = touch;
+}
+
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    if ([self isAnimating])
-    {
-        self.animationRepeatCount = 0;
-        [self stopAnimating];
+    if (isTouchEnabled) {
+        if ([self isAnimating])
+        {
+            self.animationRepeatCount = 0;
+            [self stopAnimating];
+        }
+        else
+            [self startAnimating];
     }
-    else
-        [self startAnimating];
 }
 
 @end

@@ -43,6 +43,7 @@
 	NSInteger animationStep;
 	NSTimeInterval animationDuration;
 	NSTimeInterval lastReportedTime;
+    BOOL isTouchEnabled;
 }
 @property (nonatomic, assign) id <VBAnimatorDelegate> delegate;
 
@@ -70,7 +71,7 @@
 - (void) startAnimating;
 - (void) stopAnimating;
 - (BOOL) isAnimating;
-
+- (void) isTouchEnabled:(BOOL)touch;
 - (void) animationShowFrame: (NSInteger) frame;
 
 - (void) rotateToPortrait;
